@@ -1,0 +1,12 @@
+@import 'abstracts/variables';
+@import 'abstracts/mixin';
+
+@import 'base/base';
+
+@import 'components/layout/header.scss';
+@import 'components/layout/footer.scss';
+@import 'components/testimonial.scss';
+
+@import 'pages/signIn.scss';
+@import 'pages/home.scss';
+

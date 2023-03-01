@@ -1,0 +1,24 @@
+.sign-in-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    .sign-in-content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+        .sign-in-input{
+            background: #FDFDFD;
+            border: 1px solid #000000;
+            border-radius: 6px;
+        }
+
+        .sign-in-button{
+            background-color: $button-color;
+            color: #fff;
+            width: 100%;
+        }
+    }
+
+}
